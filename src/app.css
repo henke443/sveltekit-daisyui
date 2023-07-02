@@ -5,5 +5,18 @@
 
 
 .prose a {
-    @apply decoration-emerald-500 decoration-wavy decoration-2
+    @apply text-base-content decoration-wavy decoration-primary decoration-2;
+}
+
+article {
+	@apply prose-headings:underline;
+	.title {
+		@apply text-base-content  decoration-slice decoration-primary decoration-8;
+	}
+}
+
+.drawer-side .menu {
+	li > * {
+		@apply py-3 my-1;
+	}
 }

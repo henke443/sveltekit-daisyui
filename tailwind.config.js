@@ -1,74 +1,51 @@
 import typography from '@tailwindcss/typography'
 import forms from '@tailwindcss/forms'
+import daisyui from 'daisyui'
 
 /** @type {import('tailwindcss').Config}*/
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	darkmode: false,
-	theme: {
-		screens: {
-		  sm: '480px',
-		  md: '768px',
-		  lg: '976px',
-		  xl: '1440px',
-		},
-		fontFamily: {
-		  sans: ['Graphik', 'sans-serif'],
-		  serif: ['Merriweather', 'serif'],
-		},
-		extend: {
-			typography: ({ theme }) => ({
-				DEFAULT: {
-				  css: {
-					'--tw-prose-body': theme('colors.emerald[800]'),
-					'--tw-prose-headings': theme('colors.emerald[950]'),
-					'--tw-prose-lead': theme('colors.emerald[800]'),
-					'--tw-prose-links': theme('colors.emerald[900]'),
-					'--tw-prose-bold': theme('colors.emerald[900]'),
-					'--tw-prose-counters': theme('colors.emerald[600]'),
-					'--tw-prose-bullets': theme('colors.emerald[400]'),
-					'--tw-prose-hr': theme('colors.emerald[300]'),
-					'--tw-prose-quotes': theme('colors.emerald[900]'),
-					'--tw-prose-quote-borders': theme('colors.emerald[300]'),
-					'--tw-prose-captions': theme('colors.emerald[700]'),
-					'--tw-prose-code': theme('colors.emerald[900]'),
-					'--tw-prose-pre-code': theme('colors.emerald[100]'),
-					'--tw-prose-pre-bg': theme('colors.emerald[900]'),
-					'--tw-prose-th-borders': theme('colors.emerald[300]'),
-					'--tw-prose-td-borders': theme('colors.emerald[200]'),
-					'--tw-prose-invert-body': theme('colors.emerald[200]'),
-					'--tw-prose-invert-headings': theme('colors.white'),
-					'--tw-prose-invert-lead': theme('colors.emerald[300]'),
-					'--tw-prose-invert-links': theme('colors.white'),
-					'--tw-prose-invert-bold': theme('colors.white'),
-					'--tw-prose-invert-counters': theme('colors.emerald[400]'),
-					'--tw-prose-invert-bullets': theme('colors.emerald[600]'),
-					'--tw-prose-invert-hr': theme('colors.emerald[700]'),
-					'--tw-prose-invert-quotes': theme('colors.emerald[100]'),
-					'--tw-prose-invert-quote-borders': theme('colors.emerald[700]'),
-					'--tw-prose-invert-captions': theme('colors.emerald[400]'),
-					'--tw-prose-invert-code': theme('colors.white'),
-					'--tw-prose-invert-pre-code': theme('colors.emerald[300]'),
-					'--tw-prose-invert-pre-bg': 'rgb(0 0 0 / 50%)',
-					'--tw-prose-invert-th-borders': theme('colors.emerald[600]'),
-					'--tw-prose-invert-td-borders': theme('colors.emerald[700]'),
-				  },
-				},
-			  }),
-			colors: {
-				'my-blue': '#006',
-			  },
-		  	spacing: {
-				'128': '32rem',
-				'144': '36rem',
-			},
-			borderRadius: {
-				'4xl': '2rem',
-			}
-		}
-	},
 
-	plugins: [forms, typography]
+	plugins: [forms, typography, daisyui],
+
+	daisyui: {
+    themes: [{
+			"emerald": {
+				"primary": "hsl(159, 64%, 10%)",
+				"secondary": "hsl(266, 63%, 10%)",
+				"accent": "hsl(159, 72%, 20%)",
+				"neutral": "hsl(159, 72%, 15%)",
+				"base-100": "hsl(159, 72%, 30%)",
+				"base-content": "hsl(159, 72%, 90%)",
+				"info": "#3abff8",
+				"success": "#36d399",
+				"warning": "#fbbd23",
+				"error": "#f87272",
+			},
+			"emerald-light": {
+				"primary": "hsl(159, 64%, 52%)",
+				"secondary": "hsl(266, 63%, 55%)",
+				"accent": "hsl(57, 100%, 62%)",
+				"neutral": "hsl(159, 73%, 77%)",
+				"base-100": "hsl(159, 72%, 73%)",
+				"info": "#3abff8",
+				"success": "#36d399",
+				"warning": "#fbbd23",
+				"error": "#f87272",
+			}
+		}], // true: all themes | false: only light + dark | array: specific themes like this ["light", "dark", "cupcake"]
+    darkTheme: "dark", // name of one of the included themes for dark mode
+    base: true, // applies background color and foreground color for root element by default
+    styled: true, // include daisyUI colors and design decisions for all components
+    utils: true, // adds responsive and modifier utility classes
+    rtl: false, // rotate style direction from left-to-right to right-to-left. You also need to add dir="rtl" to your html tag and install `tailwindcss-flip` plugin for Tailwind CSS.
+    prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
+    logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
+  },
+
+
+
 };
 
 module.exports = config;

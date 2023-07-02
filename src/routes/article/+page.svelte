@@ -1,6 +1,4 @@
-<article
-	class="prose mx-auto md:pl-0 md:pr-0 mt-16 mb-16 pl-6 pr-6 prose-img:rounded-xl prose-headings:underline"
->
+<article class="prose mx-auto md:pl-0 md:pr-0 mt-16 mb-16 pl-6 pr-6 prose-img:rounded-xl">
 	<h1 class="text-4xl title">Garlic Bread & Cheese</h1>
 	<p class="lead">An AI Generated News Article.</p>
 	<p class="lead">
@@ -16,7 +14,7 @@
 		potential danger.
 	</p>
 
-	<blockquote class="prose:emerald-blockquote">
+	<blockquote class="prose:blockquote">
 		<p>
 			This incident has underscored the critical importance of safeguarding our food supply. It
 			serves as a poignant reminder that even the simplest pleasures we cherish can harbor hidden

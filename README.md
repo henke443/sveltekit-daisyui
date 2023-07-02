@@ -16,5 +16,6 @@ I create this with [`create-svelte`](https://github.com/sveltejs/kit/tree/master
 - vitest
 - vscode settings & extension recommendations
 - postcss with tailwindcss, cssnano, import & nesting plugins
-- @sveltejs/adapter-node & @sveltejs/adapter-static and a easy way to switch between them
+- @sveltejs/adapter-node and @sveltejs/adapter-static + an easy way to switch between them
 - pnpm lockfile
+- minimal TailwindCSS and Svelte usage examples

@@ -8,10 +8,10 @@ I create this with [`create-svelte`](https://github.com/sveltejs/kit/tree/master
 - Eslint & Prettier
 - ViTest
 - VSCode settings & extension recommendations
-- PostCSS with TailwindCSS, cssnano, import & nesting plugins
+- PostCSS with DaisyUI (TailwindCSS), cssnano, import & nesting plugins
 - @sveltejs/adapter-node and @sveltejs/adapter-static + an easy way to switch between them
-- pnpm lockfile
-- minimal TailwindCSS and Svelte usage examples
+- PNPM lockfile
+- Minimal DaisyUI and Svelte usage examples
 
 ### Commands:
 - `pnpm start:node` to build and run the production node server (SSR)

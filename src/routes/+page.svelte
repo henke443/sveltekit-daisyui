@@ -31,6 +31,6 @@
 	<p class="lead">
 		P.S.
 	</p>
-	<p>If you're starting the static version of this site (<code>pnpm start:static</code>) scripts will not work because of CORS policies.
+	<p>If you're starting the static version of this site, using <code class="inline-block font-mono font-bold px-1 bg-emerald-900 text-white rounded">pnpm start:static</code> scripts will not work because of CORS policies.
 	It will work if you start your browser in insecure mode or if you host the files on a server like NGINX</p>
 </article>

@@ -3,12 +3,12 @@
 I create this with [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) and [`svelte-add`](https://github.com/svelte-add/svelte-add). Then I did some manual changes.
 
 ### Features:
-- typescript
-- playwright
-- eslint & prettier
-- vitest
-- vscode settings & extension recommendations
-- postcss with tailwindcss, cssnano, import & nesting plugins
+- TypeScript
+- Playwright
+- Eslint & Prettier
+- ViTest
+- VSCode settings & extension recommendations
+- PostCSS with TailwindCSS, cssnano, import & nesting plugins
 - @sveltejs/adapter-node and @sveltejs/adapter-static + an easy way to switch between them
 - pnpm lockfile
 - minimal TailwindCSS and Svelte usage examples

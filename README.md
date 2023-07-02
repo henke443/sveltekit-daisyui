@@ -9,10 +9,13 @@ Features:
 - vitest
 
 I additionally added:
-1. Some basic tailwinds usage and theming with typography
-2. .js instead of .cjs tailwind config
-3. postcss-nesting (and it's configuration with tailwindcss/nesting which is kind of annoying)
-4. cssnano
-5. pnpm (although you can get this with create-svelte also)
-6. renamed app.postcss to app.css
-7. added some vscode recommended extension & settings + .editorconfig
+- postcss things that's slightly tricky to configure with svelte-add
+	- import
+	- nesting
+	- cssnano
+	- tailwinds
+- Some basic tailwinds usage and theming with typography
+- .js instead of .cjs tailwind config
+- pnpm (although you can get this with create-svelte also)
+- renamed app.postcss to app.css
+- added some vscode recommended extension & settings + .editorconfig

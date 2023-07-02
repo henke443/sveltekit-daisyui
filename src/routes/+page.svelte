@@ -16,16 +16,14 @@
 		potential danger.
 	</p>
 
-
 	<blockquote class="prose:emerald-blockquote">
 		<p>
 			This incident has underscored the critical importance of safeguarding our food supply. It
 			serves as a poignant reminder that even the simplest pleasures we cherish can harbor hidden
 			dangers. Moving forward, we must remain vigilant and prioritize stringent safety measures to
-			protect the health and well-being of consumers.
-		</p> - John Doe, Food Safety Advocate
+			protect the health and well-being of consumers.</p>
+            – John Doe, Food Safety Advocate
 	</blockquote>
-
 
 	<p>
 		With the source of the contamination identified, immediate actions were taken to recall the

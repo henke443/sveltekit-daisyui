@@ -1,13 +1,13 @@
 <script>
 	// Just some things to make both static site and SSR site work at the same time
-	let indexUrl = "./index.html"
-	let articleUrl = "./article.html"
+	let indexUrl = './index.html'
+	let articleUrl = './article.html'
 
-  import { browser } from '$app/environment';
+	import { browser } from '$app/environment'
 
-  if (browser && !location.href.includes(".html")) {
-		indexUrl = "/"
-		articleUrl = "/article"
+	if (browser && !location.href.includes('.html')) {
+		indexUrl = '/'
+		articleUrl = '/article'
 	}
 
 	// Toggle state of responsive menu
@@ -19,7 +19,7 @@
 
 <nav class="relative z-10 flex items-center justify-between flex-wrap bg-emerald-500 p-6">
 	<!-- The logo -->
-	<a href="{indexUrl}" class="flex items-center flex-shrink-0 text-white mr-6">
+	<a href={indexUrl} class="flex items-center flex-shrink-0 text-white mr-6">
 		<svg
 			class="fill-current h-8 w-8 mr-2"
 			width="54"
@@ -53,11 +53,14 @@
 		{!toggled ? 'hidden' : ''}"
 	>
 		<div class="text-sm lg:flex-grow">
-			<a href="{indexUrl}" class="block mt-4 lg:inline-block lg:mt-0 text-emerald-200 hover:text-white mr-4">
+			<a
+				href={indexUrl}
+				class="block mt-4 lg:inline-block lg:mt-0 text-emerald-200 hover:text-white mr-4"
+			>
 				Home
 			</a>
 			<a
-				href="{articleUrl}"
+				href={articleUrl}
 				class="block mt-4 lg:inline-block lg:mt-0 text-emerald-200 hover:text-white mr-4"
 			>
 				Garlic Bread & Cheese

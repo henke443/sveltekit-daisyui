@@ -2,7 +2,7 @@
 	class="prose mx-auto md:pl-0 md:pr-0 mt-16 mb-16 pl-6 pr-6 prose-img:rounded-xl prose-headings:underline"
 >
 	<h1 class="text-4xl title">Garlic Bread & Cheese</h1>
-	<p class="lead">An AI Generated News Article.</p	>
+	<p class="lead">An AI Generated News Article.</p>
 	<p class="lead">
 		For years parents have espoused the health benefits of eating garlic bread with cheese to their
 		children, with the food earning such an iconic status in our culture that kids will often dress
@@ -21,8 +21,9 @@
 			This incident has underscored the critical importance of safeguarding our food supply. It
 			serves as a poignant reminder that even the simplest pleasures we cherish can harbor hidden
 			dangers. Moving forward, we must remain vigilant and prioritize stringent safety measures to
-			protect the health and well-being of consumers.</p>
-            – John Doe, Food Safety Advocate
+			protect the health and well-being of consumers.
+		</p>
+		– John Doe, Food Safety Advocate
 	</blockquote>
 
 	<p>

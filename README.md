@@ -1,6 +1,6 @@
 # About
 
-I create this with [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) and [`svelte-add`](https://github.com/svelte-add/svelte-add).
+I create this with [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) and [`svelte-add`](https://github.com/svelte-add/svelte-add). Then I did some manual changes.
 
 ### Commands:
 - `pnpm build:start` to build and run the production node server

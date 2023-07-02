@@ -19,3 +19,4 @@ I additionally added:
 - pnpm (although you can get this with create-svelte also)
 - renamed app.postcss to app.css
 - added some vscode recommended extension & settings + .editorconfig
+- using @sveltejs/adapter-node as default (run `pnpm build:start` to build and run the production node server)

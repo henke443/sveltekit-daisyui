@@ -47,7 +47,7 @@
 			<!-- Main menu links -->
 			<div class="flex-1">
 				<ul class="menu menu-horizontal px-1">
-					<li><a href="/">Home</a></li>
+					<li><a href={indexUrl}>Home</a></li>
 					<li>
 						<details>
 							<summary> Pages </summary>
@@ -109,10 +109,10 @@
 		<label for="my-drawer-2" class="drawer-overlay" />
 		<ul class="menu p-4 w-80 h-full bg-base-200 pt-20">
 			<!-- Sidebar content here -->
-			<li><a href="#1">Sidebar Item 1</a></li>
-			<li><a href="#2">Sidebar Item 2</a></li>
-			<li><a href="#3">Sidebar Item 3</a></li>
-			<li><a href="#4">Sidebar Item 4</a></li>
+			<li><a href={indexUrl}>Sidebar Item 1</a></li>
+			<li><a href={indexUrl}>Sidebar Item 2</a></li>
+			<li><a href={indexUrl}>Sidebar Item 3</a></li>
+			<li><a href={indexUrl}>Sidebar Item 4</a></li>
 		</ul>
 	</div>
 </div>

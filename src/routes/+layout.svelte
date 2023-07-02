@@ -1,4 +1,8 @@
 <script>
-import "../app.css";
+	import '../app.css'
+	import Nav from '$lib/components/Nav.svelte'
 </script>
-<slot></slot>
+
+<Nav></Nav>
+
+<slot />

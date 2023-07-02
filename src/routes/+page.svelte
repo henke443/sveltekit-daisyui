@@ -4,36 +4,33 @@
 	<h1 class="text-4xl">Welcome to SvelteKit</h1>
 
 	<p class="lead">
-		For years parents have espoused the health benefits of eating garlic bread with cheese to their
-		children, with the food earning such an iconic status in our culture that kids will often dress
-		up as warm, cheesy loaf for Halloween.
+		This starter template doesn't do that much but if you're new you can learn some things from it.
 	</p>
 
-	<p>
-		But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
-		springing up around the country. Panic spread among parents and communities as news outlets
-		picked up on the alarming discovery. The once-beloved garlic bread with cheese was now seen as a
-		potential danger.
+	<h2>What's next?</h2>
+
+	<p class="lead">
+		Check out these interesting projects and tools
 	</p>
 
-	<blockquote class="prose:emerald-blockquote">
-		<p>
-			This incident has underscored the critical importance of safeguarding our food supply. It
-			serves as a poignant reminder that even the simplest pleasures we cherish can harbor hidden
-			dangers. Moving forward, we must remain vigilant and prioritize stringent safety measures to
-			protect the health and well-being of consumers.</p>
-            – John Doe, Food Safety Advocate
-	</blockquote>
+	<ul>
+		<li><a target="_blank" href="https://daisyui.com"><img src="https://daisyui.com/images/daisyui-logo/daisyui-logotype.svg" class="mr-2 mt-0 mb-0 bg-emerald-800" style="display: inline-block; height: 2em;" />component library</a></li>
+		<li><a target="_blank" href="https://flowbite.com/pro/">FlowBite component library looks cool.</a></li>
+	</ul>
 
-	<p>
-		With the source of the contamination identified, immediate actions were taken to recall the
-		affected products from store shelves. Health advisories were issued, notifying the public of the
-		potential risk associated with the consumption of these specific brands. The affected cheese
-		supplier faced legal consequences and was mandated to implement stricter quality control
-		measures to prevent future contamination incidents.
+	<p class="lead">
+		Read the docs
 	</p>
 
-	<p>
-		Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
+	<ul>
+		<li><a target="_blank" href="https://svelte.dev/tutorial/basics">Svelte Interactive Quickstart</a></li>
+		<li><a target="_blank" href="https://kit.svelte.dev/docs/project-structure">SvelteKit Documentation</a></li>
+		<li><a target="_blank" href="https://tailwindcss.com/docs/customizing-colors">TailwindCSS documentation.</a></li>
+	</ul>
+
+	<p class="lead">
+		P.S.
 	</p>
+	<p>If you're starting the static version of this site (<code>pnpm start:static</code>) scripts will not work because of CORS policies.
+	It will work if you start your browser in insecure mode or if you host the files on a server like NGINX</p>
 </article>

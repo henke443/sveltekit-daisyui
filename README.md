@@ -9,4 +9,3 @@ I additionally added:
 4. cssnano
 5. pnpm (although you can get this with create-svelte also)
 6. renamed app.postcss to app.css
-7. 

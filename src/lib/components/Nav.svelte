@@ -3,8 +3,6 @@
 	let indexUrl = './index.html'
 	let articleUrl = './article.html'
 
-	let drawerToggled = false
-
 	import { browser } from '$app/environment'
 
 	if (browser && !location.href.includes('.html')) {
@@ -13,6 +11,7 @@
 	}
 
 	// Toggle state of responsive menu
+	let drawerToggled = false
 </script>
 
 <div class="drawer drawer-end">
